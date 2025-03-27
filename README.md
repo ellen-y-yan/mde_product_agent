@@ -94,6 +94,6 @@ python vector.py
 
 
 
-## Note
-author: Ellen Yan
-collaborator: One MDE
+## ☕Note
+**Author**: Ellen Yan
+**Collaborator**: One MDE
