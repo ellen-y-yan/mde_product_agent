@@ -24,14 +24,14 @@ mde_product_agent/
 ├── data/
 │   └── Your_database_Schema.md        # Main table schema
 │   └── Your_sample_query_and_answer.json        # Sample of 5-10 queries curated questions and answers, ranging from easy to difficult
-├── business_context/                           # Business logic markdowns - public documentation markdowns, please remove personal identifiable info from any additional documents you include
+├── business_context/                           # Business logic markdowns - public documentation markdowns
 ├── indexes/
 │   ├── business/                               # Persisted vector index 
 │   ├── data/
 ├── generate_index.py                           # Builds vector stores
 ├── query_with_context.py                                # Main CLI for text-to-KQL
 ├── vector.py                                   # CLI for exploring context indexes, you can ask business questions here to evaluate the quality of business context here
-├── .gitignore                                  # hide necessary files
+├── .gitignore                                  # please hide files and documents that have personal identifiable info
 └── requirements.txt                            # Dependencies
 ```
 
