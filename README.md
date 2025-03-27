@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ```bash
 az login
 ```
-Ensure your identity can access Azure OpenAI with Microsoft Entra credentials.
+Ensure your identity can access Azure OpenAI with Microsoft Entra credentials. Make sure you deploy an Azure OpenAI resource first (i was using MSSEC hackathon deployment)
 
 ### 3. Generate vector indexes
 ```bash
