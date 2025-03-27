@@ -1,0 +1,6 @@
+llama-index
+openai>=1.2.0           # Required for AzureOpenAI
+azure-identity>=1.14.0  # For DefaultAzureCredential
+tqdm                    # Optional, for progress bars
+pandas                  # Useful for dataframes/schema parsing
+python-dotenv           # Optional, for managing env vars
