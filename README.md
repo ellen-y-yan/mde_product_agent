@@ -1,8 +1,4 @@
-# mde_product_agent
-
-
-# 💼 Frankly: Microsoft Defender Text-to-KQL with RAG
-
+# 💼 Your Neighborhood MDE Agent
 This project builds a Retrieval-Augmented Generation (RAG) system that translates natural language questions into Kusto Query Language (KQL) for the `DeviceTvmInfoGathering` table in Microsoft Defender.
 
 Powered by Azure OpenAI and LlamaIndex, it allows IT admin and security engineer personas to query Defender insights using plain English.
