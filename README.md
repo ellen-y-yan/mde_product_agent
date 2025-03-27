@@ -54,7 +54,7 @@ Ensure your identity can access Azure OpenAI with Microsoft Entra credentials. M
 ```bash
 python generate_index.py
 ```
-This indexes `business_context`, `update_logs`, and `data` using `text-embedding-3-large`.
+This indexes `business_context` and `data` using `text-embedding-3-large`. There are options out there depending on the models and embeddings you deployed. 
 
 
 
@@ -77,9 +77,9 @@ If the query references unsupported fields or only exists in business context, y
 ## 🧠 How It Works
 
 - 🧾 **Schema-aware prompt**: schema is passed to guide valid fields
-- 🧩 **Retriever-enhanced examples**: relevant documents from all 3 indexes
+- 🧩 **Retriever-enhanced examples**: relevant documents
 - 🗣️ **LLM synthesis**: LLM generates clean, safe KQL code
-- 🧱 **Guardrails**: block invalid fields or hallucinated logic
+- 🧱 **Guardrails**: block invalid fields or hallucinated logic, some prompt engineering can be done here
 
 
 
